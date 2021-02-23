@@ -9,4 +9,20 @@ public class GroceryItem {
             setCategory(category);
         }
 
+        public String getName() {
+            return name;
+        }
+
+        public void setName(String name) {
+            this.name = name;
+        }
+
+        public double getPrice() {
+            return price;
+        }
+
+        public String getCategory() {
+            return category;
+        }
+
 }
