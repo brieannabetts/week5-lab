@@ -21,8 +21,16 @@ public class GroceryItem {
             return price;
         }
 
+        public void setPrice(double price) {
+            this.price = price;
+        }
+
         public String getCategory() {
             return category;
+        }
+
+        public void setCategory(String category) {
+            this.category = category;
         }
 
 }
